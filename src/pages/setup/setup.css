@@ -1,0 +1,144 @@
+.backgroundSetup {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../public/img/back3.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mainSetup {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.containerSetup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titleSetup {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.prodSetup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.prodSetup:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nomeSetup {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.imgSetup {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.precoContainerSetup {
+    margin-top: 12px;
+}
+
+.precoSetup {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.botaoSetup, .BotaoRemoveSetup, .botaoFinalizarSetup {
+    padding: 8px 16px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.botaoSetup:hover, .BotaoRemoveSetup:hover, .botaoFinalizarSetup:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.tableSetup {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableHeadSetup {
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+.cardSetup td {
+    padding: 12px 8px;
+    vertical-align: middle;
+    color: white;
+}
+
+.cardTotalValorsetup {
+    border-top: 1px solid #ddd;
+    text-align: right;
+    padding: 12px 16px;
+    font-size: 18px;
+    color: white;
+}
+
+.cardTotalValorsetup strong {
+    font-weight: bold;
+}
+
+.qntdSetup {
+    width: 48px;
+    height: 34px;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.BotaoRemoveSetup {
+    margin-left: 12px;
+    vertical-align: middle;
+}
+
+.botaoFinalizarSetup {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+    padding: 12px 24px;
+    font-size: 18px;
+}

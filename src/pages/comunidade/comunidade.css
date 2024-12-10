@@ -1,0 +1,111 @@
+.backgroundTop {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('../../../public/img/back3.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buscar {
+    width: 100%;
+    background: #333;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscar input {
+    width: 90%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white; 
+}
+
+.buscar input::placeholder {
+    color: #ffffff;
+}
+.botaoTop {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    margin: 0;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: -64px;
+    margin-left: -1435px;
+    transition: all 0.3s ease;
+}
+
+.botaoTop:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: blueviolet;
+}
+
+
+#listaTop {
+    display: block;
+    align-items: left;
+    justify-content: left;
+    width: 95%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#listaTop li a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+img {
+    margin-right: 20px; 
+    max-width: 70px;
+    height: auto;
+    flex-shrink: 0; 
+    align-self: flex-start;
+}
+
+#listaTop li a div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.topNome {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff; 
+    margin-bottom: 5px;
+}
+
+.textoTop {
+    font-size: 16px;
+    color: #ffff;
+    margin-top: 5px;
+}
